@@ -3,12 +3,13 @@
 Plugin Name: Bulk-Select Featured Image
 Plugin URI: http://wordpress.org/extend/plugins/bulk-select-featured-image/
 Description: Allows you to select Featued Image directly from the media library view.
-Version: 1.0
+Version: 1.1
 Author: Ulf Benjaminsson
 Author URI: http://www.ulfben.com
 Author Email: ulf@ulfben.com
-License:
-  Copyright 2012 TODO (ulf@ulfben.com)
+License: GPL2
+  
+  Copyright 2012-2013 (ulf@ulfben.com)
 
   This program is free software; you can redistribute it and/or modify
   it under the terms of the GNU General Public License, version 2, as 
@@ -27,15 +28,21 @@ class BulkSelectFeaturedImage {
 	function __construct() {			
 		load_plugin_textdomain( 'BulkSelectFeaturedImage', false, dirname( plugin_basename( __FILE__ ) ) . '/lang' );		    					
 		register_activation_hook( __FILE__, array( &$this, 'activate' ) );
-		register_deactivation_hook( __FILE__, array( &$this, 'deactivate' ) );			    
+		register_deactivation_hook( __FILE__, array( &$this, 'deactivate' ) );
+		add_action( 'after_setup_theme', array( $this, 'add_thumbnail_support'));	//http://codex.wordpress.org/Function_Reference/add_theme_support must be called before init.		
 	    add_filter( 'media_row_actions', array( $this, 'addMediaLibraryAction' ),10,3 );
 	    add_filter( 'admin_print_scripts-upload.php', array( $this, 'printProxyScript' ) );
 	}
 	function activate( $network_wide ) {
-		add_theme_support( 'post-thumbnails'); 
+		add_thumbnail_support();	
 	}	
 	function deactivate( $network_wide ) {		
 	}	
+	function add_thumbnail_support(){
+		if(function_exists('add_theme_support')){
+			add_theme_support('post-thumbnails');
+		}	
+	}
 	function printProxyScript(){
 		echo 
 		'<script type="text/javascript">

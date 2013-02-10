@@ -2,9 +2,9 @@
 Contributors: ulfben
 Donate link: http://www.amazon.com/gp/registry/wishlist/2QB6SQ5XX2U0N/105-3209188-5640446?reveal=unpurchased&filter=all&sort=priority&layout=standard&x=11&y=10
 Tags: featured image, media library, post thumbnail
-Requires at least: 3.3.2
-Tested up to: 3.3.2
-Stable tag: 1.0
+Requires at least: 3.5.1
+Tested up to: 3.5.1
+Stable tag: 1.1
 License: GPLv2 or later
 
 Allows you to select Featured Image / post thumbnail for your posts directly from the media library view.
@@ -21,10 +21,16 @@ If you value [my plugins](http://profiles.wordpress.org/users/ulfben/), please h
 
 == Changelog ==
 
+= 1.1 =
+Maybe fix for themes not supporting post-thumbnail.
+
 = 1.0 =
 Public release.
 
 == Upgrade Notice ==
+
+= 1.1 = 
+Maybe fix for themes that doesn't support post-thumbnail.
 
 = 1.0 =
 First release.
