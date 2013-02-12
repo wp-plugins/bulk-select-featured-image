@@ -3,7 +3,7 @@
 Plugin Name: Bulk-Select Featured Image
 Plugin URI: http://wordpress.org/extend/plugins/bulk-select-featured-image/
 Description: Allows you to select Featued Image directly from the media library view.
-Version: 1.1
+Version: 1.1.1
 Author: Ulf Benjaminsson
 Author URI: http://www.ulfben.com
 Author Email: ulf@ulfben.com
@@ -34,7 +34,7 @@ class BulkSelectFeaturedImage {
 	    add_filter( 'admin_print_scripts-upload.php', array( $this, 'printProxyScript' ) );
 	}
 	function activate( $network_wide ) {
-		add_thumbnail_support();	
+		$this->add_thumbnail_support();	
 	}	
 	function deactivate( $network_wide ) {		
 	}	
