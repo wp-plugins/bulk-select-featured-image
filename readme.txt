@@ -1,9 +1,9 @@
 === Bulk-Select Featured Image ===
 Contributors: ulfben
-Donate link: http://www.amazon.com/gp/registry/wishlist/2QB6SQ5XX2U0N/105-3209188-5640446?reveal=unpurchased&filter=all&sort=priority&layout=standard&x=11&y=10
+Donate link: http://flattr.com/thing/367557/Support-my-WordPress-plugins
 Tags: featured image, media library, post thumbnail
-Requires at least: 3.5.1
-Tested up to: 3.5.1
+Requires at least: 3.9
+Tested up to: 4.1.1
 Stable tag: 1.1.1
 License: GPLv2 or later
 
@@ -15,7 +15,14 @@ This plugin adds an "Use as Featured Image"-action to the Media Library. Very us
 
 [A picture says more than a thousand words](http://wordpress.org/extend/plugins/bulk-select-featured-image/screenshots/).
 
-If you value [my plugins](http://profiles.wordpress.org/users/ulfben/), please help me out by [Flattr-ing them](http://flattr.com/thing/367557/Support-my-WordPress-plugins)! Or perhaps [send me a book](http://www.amazon.com/gp/registry/wishlist/2QB6SQ5XX2U0N/105-3209188-5640446?reveal=unpurchased&filter=all&sort=priority&layout=standard&x=11&y=10)? Used ones are fine! :)
+If you value [my plugins](http://profiles.wordpress.org/users/ulfben/), there's several ways you can help me out; 
+
+* Help me out by [Flattr-ing them](http://flattr.com/thing/367557/Support-my-WordPress-plugins)
+* or [sign up to Microsoft OneDrive using my referral link](https://onedrive.live.com?invref=b1f728851abada15&invsrc=90) - we both get 0.5GB extra for free!
+* or [sign up to RealPlayer Cloud using my referral link](https://cloud.real.com/r/UzKHSP) - we both get 1GB extra for free! 
+* get me anything from [my Amazon whislisth](http://www.amazon.com/gp/registry/wishlist/2QB6SQ5XX2U0N/105-3209188-5640446?reveal=unpurchased&filter=all&sort=priority&layout=standard&x=11&y=10) (used items are OK!)
+
+Any help is greatly appreciated. Thanks!
 
 //*[Ulf Benjaminsson](http://profiles.wordpress.org/users/ulfben/)*
 
